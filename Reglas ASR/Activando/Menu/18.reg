@@ -1,0 +1,2 @@
+   
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]    "Size"=dword:00000001

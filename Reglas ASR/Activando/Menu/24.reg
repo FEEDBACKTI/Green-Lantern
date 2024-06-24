@@ -1,0 +1,3 @@
+  
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd]    "fEnableComPortMapping"=dword:00000000
+

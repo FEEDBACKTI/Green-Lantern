@@ -1,0 +1,3 @@
+
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "EnableDeadGWDetect"=dword:00000000
+

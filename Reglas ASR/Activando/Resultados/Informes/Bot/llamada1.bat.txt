@@ -1,0 +1,5 @@
+@echo off
+echo Ejecutando llamada1.bat
+echo Realizando alguna tarea...
+ping localhost -n 5 > nul
+echo Tarea completada.

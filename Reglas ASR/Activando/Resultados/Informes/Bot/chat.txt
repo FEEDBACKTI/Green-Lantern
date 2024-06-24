@@ -1,0 +1,20 @@
+---------------------------------------------------
+# Definir la ruta del registro y el nombre del valor a modificar
+$registryPath = "HKCU:\Control Panel\Mouse"
+$valueName = "rx"
+
+# Asignar el nuevo valor a la cadena "rx"
+Set-ItemProperty -Path $registryPath -Name $valueName -Value "1"
+
+# Confirmar el cambio mostrando el valor actual
+Get-ItemProperty -Path $registryPath | Select-Object $valueName
+---------------------------------------
+
+
+
+# Definir la ruta del registro y el nombre del valor a modificar
+$registryPath = "HKCU:\Control Panel\Mouse"
+$valueName = "rx"
+
+# Asignar el nuevo valor a la cadena "rx"
+Set-ItemProperty -Path $registryPath -Name $valueName -Value "1"

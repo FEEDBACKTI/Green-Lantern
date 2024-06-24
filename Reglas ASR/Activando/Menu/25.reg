@@ -1,0 +1,2 @@
+
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp]    "MaxConnectionTime"=dword:00003600

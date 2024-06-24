@@ -1,0 +1,1 @@
+$value = Get-ItemProperty -Path "HKCU:\Control Panel\Mouse" -Name MouseSpeed

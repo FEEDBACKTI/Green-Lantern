@@ -1,0 +1,3 @@
+
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]    "NoNameReleaseOnDemand"=dword:00000001
+

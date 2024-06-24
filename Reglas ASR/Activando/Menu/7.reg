@@ -1,0 +1,3 @@
+ 
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpMaxListenQueue"=dword:000001f4
+

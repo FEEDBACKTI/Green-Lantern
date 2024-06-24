@@ -1,0 +1,75 @@
+1. Activar SynAttackProtect:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "SynAttackProtect"=dword:00000002
+
+2. Reducir el tiempo de espera de conexiones SYN no confirmadas (1):   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpMaxHalfOpen"=dword:00000064
+
+3. Reducir el tiempo de espera de conexiones SYN no confirmadas (2):   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpMaxHalfOpenRetried"=dword:00000050
+
+4. Desactivar detección de MTU enrutado incorrectamente:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "EnablePMTUBHDetect"=dword:00000000
+
+5. Desactivar detección de puerta de enlace muerta:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "EnableDeadGWDetect"=dword:00000000
+
+6. Limitar el número de conexiones TCP simultáneas:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpNumConnections"=dword:00000064
+
+7. Aumentar el tamaño de la cola de escucha TCP:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpMaxListenQueue"=dword:000001f4
+
+8. Deshabilitar IP Source Routing:   
+
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "DisableIPSourceRouting"=dword:00000002
+
+9. Habilitar IPSec para proteger el tráfico de red:   
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\IPSec]   "OperationMode"=dword:00000002
+
+10. Limitar el tamaño de los fragmentos de ICMP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "MaxICMPSize"=dword:00000258
+
+11. Habilitar protección contra ataques SYN flood:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "EnableSynAttackProtect"=dword:00000001
+
+12. Reducir el tiempo de espera de la caché ARP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "ArpCacheLife"=dword:00000010
+
+13. Habilitar la protección contra ataques de spoofing:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "EnableSpoofingProtect"=dword:00000001
+
+14. Configurar el tiempo de espera de TCP en FIN-WAIT-2:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "TcpFinWait2Delay"=dword:0000001E
+
+15. Configurar el tiempo de espera de TCP en FIN-WAIT-1:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "TcpFinWait1Delay"=dword:0000001E
+
+16. Deshabilitar el reinicio automático en caso de errores del sistema:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]    "AutoReboot"=dword:00000000
+
+17. Desactivar el registro de puertos SMB:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]    "EnablePortLogging"=dword:00000000
+
+18. Limitar la cantidad de memoria utilizada por el servidor SMB:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]    "Size"=dword:00000001
+
+19. Habilitar la protección contra ataques de retransmisión de TCP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "EnableTcpKeepAlive"=dword:00000001
+
+20. Configurar el intervalo de TCP KeepAlive:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "KeepAliveTime"=dword:00007530
+
+21. Deshabilitar NetBIOS sobre TCP/IP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]    "EnableLmHosts"=dword:00000000
+
+22. Deshabilitar la resolución de nombres a través de NetBIOS:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]    "NoNameReleaseOnDemand"=dword:00000001
+
+23. Habilitar la protección contra ataques de desbordamiento de búfer en RPC:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcSs]    "RestrictRemoteClients"=dword:00000001
+
+24. Deshabilitar la redirección de puerto COM a través de RDP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\Wds\rdpwd]    "fEnableComPortMapping"=dword:00000000
+
+25. Configurar un límite de sesión de RDP:    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp]    "MaxConnectionTime"=dword:00003600

@@ -1,0 +1,28 @@
+Diagnóstico ASR iniciado - 2024-06-24 01:02:36
+Diagnóstico ASR completado - 2024-06-24 01:02:41
+Inicio del diagnostico ASR - 2024-06-24 01:12:15
+Diagnostico ASR completado - 2024-06-24 01:12:21
+diagnostico ASR - 2024-06-24 01:15:32
+Diagnostico ASR completado - 2024-06-24 01:15:37
+Cambio de MouseSpeed a Valor 1  
+diagnostico ASR - 2024-06-24 01:30:17
+Diagnostico ASR completado - 2024-06-24 01:30:22
+diagnostico ASR - 2024-06-24 01:36:07
+Diagnostico ASR completado - 2024-06-24 01:36:12
+diagnostico ASR - 2024-06-24 01:39:38
+Diagnostico ASR completado - 2024-06-24 01:39:43
+Cambio de 'rx1' a 1  
+diagnostico ASR - 2024-06-24 01:43:50
+Diagnostico ASR completado - 2024-06-24 01:43:55
+diagnostico ASR - 2024-06-24 01:46:39
+Diagnostico ASR completado - 2024-06-24 01:46:44
+diagnostico ASR - 2024-06-24 01:48:34
+Diagnostico ASR completado - 2024-06-24 01:48:39
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx1' a 1  
+Cambio de 'rx' a 1  

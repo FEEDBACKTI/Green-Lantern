@@ -1,0 +1,3 @@
+    
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]    "EnableLmHosts"=dword:00000000
+

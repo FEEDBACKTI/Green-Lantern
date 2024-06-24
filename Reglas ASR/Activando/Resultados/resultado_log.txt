@@ -1,0 +1,7 @@
+
+diagnostico ASR - 2024-06-24 16:30:03
+Diagnóstico ASR completado - 2024-06-24 16:30:08
+diagnostico ASR - 2024-06-24 16:30:45
+Diagnóstico ASR completado - 2024-06-24 16:30:50
+Cambio de 'rx1' a 1  
+Importación de C:\Users\psand\OneDrive\Documentos\doc\Reglas ASR\Activando\Menu /1.reg ~0,4DateTime:~4,2DateTime:~6,2DateTime:~8,2DateTime:~10,2DateTime:~12,2 

@@ -1,0 +1,3 @@
+   
+reg    [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]    "EnableSynAttackProtect"=dword:00000001
+

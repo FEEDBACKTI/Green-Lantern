@@ -1,0 +1,6 @@
+  
+reg   [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]   "TcpNumConnections"=dword:00000064
+
+
+
+

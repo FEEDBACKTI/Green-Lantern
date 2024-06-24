@@ -1,0 +1,50 @@
+1. Activar SynAttackProtect:   
+
+2. Reducir el tiempo de espera de conexiones SYN no confirmadas (1):   
+
+3. Reducir el tiempo de espera de conexiones SYN no confirmadas (2):   
+
+4. Desactivar detección de MTU enrutado incorrectamente:   
+
+5. Desactivar detección de puerta de enlace muerta:   
+
+6. Limitar el número de conexiones TCP simultáneas:   
+
+7. Aumentar el tamaño de la cola de escucha TCP:   
+
+8. Deshabilitar IP Source Routing:   
+
+9. Habilitar IPSec para proteger el tráfico de red:   
+
+10. Limitar el tamaño de los fragmentos de ICMP:    
+
+11. Habilitar protección contra ataques SYN flood:    
+
+12. Reducir el tiempo de espera de la caché ARP:    
+
+13. Habilitar la protección contra ataques de spoofing:    
+
+14. Configurar el tiempo de espera de TCP en FIN-WAIT-2:    
+
+15. Configurar el tiempo de espera de TCP en FIN-WAIT-1:    
+
+16. Deshabilitar el reinicio automático en caso de errores del sistema:    
+
+17. Desactivar el registro de puertos SMB:    
+
+18. Limitar la cantidad de memoria utilizada por el servidor SMB:    
+
+19. Habilitar la protección contra ataques de retransmisión de TCP:    
+
+20. Configurar el intervalo de TCP KeepAlive:    
+
+21. Deshabilitar NetBIOS sobre TCP/IP:    
+
+22. Deshabilitar la resolución de nombres a través de NetBIOS:    
+
+23. Habilitar la protección contra ataques de desbordamiento de búfer en RPC:    
+
+24. Deshabilitar la redirección de puerto COM a través de RDP:    
+
+25. Configurar un límite de sesión de RDP:    
+
